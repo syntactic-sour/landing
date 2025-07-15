@@ -1,0 +1,2 @@
+docker exec landing-web-1 yarn test:unit --browser.headless
+docker exec landing-web-1 yarn lint-all-styles

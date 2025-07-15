@@ -1,0 +1,3 @@
+docker exec landing-web-1 yarn lint $(git diff origin/main --diff-filter=ACMRTUXB --name-only -- **/*.{js,ts,vue})   
+docker exec landing-web-1 yarn type-check
+docker exec landing-web-1 yarn lint-styles $(git diff origin/main --diff-filter=ACMRTUXB --name-only -- ./src/**/*.{css,vue})
