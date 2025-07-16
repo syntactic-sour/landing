@@ -13,7 +13,7 @@
     "storybook": "storybook dev --port 6006 --no-open",
     "storybook-cc": "rm -rf node_modules/.cache/storybook",
     "build-storybook": "storybook build",
-    "prepare": "husky && install-peers"
+    "prepare": "husky"
   },
   "dependencies": {
     "vue": "^3.5.13"

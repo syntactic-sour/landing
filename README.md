@@ -29,3 +29,11 @@ Install [extension for Vs Code](https://marketplace.visualstudio.com/items?itemN
 ```
 docker exec landing-web-1 yarn test:unit --browser.headless
 ```
+
+### Git hooks
+
+If husky doesn't trigger precoomit, prepush and other hooks, run 
+
+```
+git config core.hooksPath .husky/_
+```
